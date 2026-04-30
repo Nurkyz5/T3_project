@@ -1,7 +1,7 @@
-from students import Student
-from json_manager import save_students, load_students
-from numpy_analysis import numpy_analysis
-from pandas_analysis import pandas_analysis
+from ai_courses.Project.students import Student
+from ai_courses.Project.json_manager import save_students, load_students
+from ai_courses.Project.numpy_analysis import numpy_analysis
+from ai_courses.Project.pandas_analysis import pandas_analysis
 
 
 students = []

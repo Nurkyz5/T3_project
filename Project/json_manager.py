@@ -1,5 +1,5 @@
 import json
-from students import Student
+from ai_courses.Project.students import Student
 
 def save_students(students,filename='students.json'):
     data=[students.to_dict() for student in students]
